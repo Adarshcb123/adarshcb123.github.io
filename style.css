@@ -10,6 +10,7 @@ section {
     text-align: center;
 }
 
+/* HERO */
 .hero {
     height: 100vh;
     display: flex;
@@ -27,6 +28,7 @@ h2 {
     color: #00ffcc;
 }
 
+/* BUTTON */
 .btn {
     margin-top: 20px;
     padding: 10px 20px;
@@ -36,6 +38,7 @@ h2 {
     border-radius: 5px;
 }
 
+/* CARDS */
 .cards {
     display: flex;
     justify-content: center;
@@ -47,7 +50,7 @@ h2 {
     padding: 20px;
     margin: 10px;
     border-radius: 10px;
-    width: 200px;
+    width: 220px;
     transition: 0.3s;
 }
 
@@ -55,4 +58,9 @@ h2 {
     transform: scale(1.1);
     background: #00ffcc;
     color: black;
+}
+
+/* LINKS */
+a {
+    color: #00ffcc;
 }

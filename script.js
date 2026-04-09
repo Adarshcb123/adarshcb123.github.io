@@ -1,8 +1,12 @@
-window.addEventListener("scroll", () => {
-    document.querySelectorAll("section").forEach(sec => {
-        let top = window.scrollY;
-        if (top > 100) {
-            sec.style.opacity = "1";
-        }
-    });
-});
+const text = "Cybersecurity & Digital Forensics Specialist";
+let i = 0;
+
+function typing() {
+    if (i < text.length) {
+        document.getElementById("typing").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typing, 50);
+    }
+}
+
+typing();
